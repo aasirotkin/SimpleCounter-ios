@@ -13,6 +13,7 @@
 		7C6FBBAD2917A7DB00688628 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C6FBBAB2917A7DB00688628 /* Main.storyboard */; };
 		7C6FBBAF2917A7DB00688628 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C6FBBAE2917A7DB00688628 /* Assets.xcassets */; };
 		7C6FBBB22917A7DB00688628 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C6FBBB02917A7DB00688628 /* LaunchScreen.storyboard */; };
+		7C6FBBBE2917BBF600688628 /* StringEmojiHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6FBBBD2917BBF600688628 /* StringEmojiHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7C6FBBAE2917A7DB00688628 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C6FBBB12917A7DB00688628 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C6FBBB32917A7DB00688628 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C6FBBBD2917BBF600688628 /* StringEmojiHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringEmojiHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				7C6FBBAE2917A7DB00688628 /* Assets.xcassets */,
 				7C6FBBB02917A7DB00688628 /* LaunchScreen.storyboard */,
 				7C6FBBB32917A7DB00688628 /* Info.plist */,
+				7C6FBBBD2917BBF600688628 /* StringEmojiHelper.swift */,
 			);
 			path = SimpleCounter;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C6FBBAA2917A7DB00688628 /* ViewController.swift in Sources */,
+				7C6FBBBE2917BBF600688628 /* StringEmojiHelper.swift in Sources */,
 				7C6FBBA62917A7DB00688628 /* AppDelegate.swift in Sources */,
 				7C6FBBA82917A7DB00688628 /* SceneDelegate.swift in Sources */,
 			);
